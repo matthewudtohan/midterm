@@ -1,0 +1,124 @@
+body {
+    background-image: url('img/bg.jpg');
+    background-attachment: fixed;
+    text-align: left;
+    margin: 0px;
+    padding: 0px; 
+}
+
+.body {
+    width: 70%;
+    background-color: black;
+    margin: 0 auto;
+    clear: both;
+}
+
+.mainHeader {
+    background-color: black;
+}
+
+.maincontent {
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+.content {
+    width: 70%;
+    float:left;
+    background-color: black;
+    margin: 2% 2% 2% 2%;
+}
+
+.left {
+    width: 23%;
+    height: auto;
+    float:left;
+    background-color: black;
+}
+.topleftbar {
+    width: 70%;
+    background-color: gray;
+    color: black;
+    margin: 2% 2% 2% 2%;
+}
+
+.bottomleftbar {
+    width: 70%;
+    background-color: gray;
+    color: black;
+    margin: 2% 2% 2% 2%;
+}
+
+.topcontent {
+    width:100%;
+    float:left;
+    background-color: black;
+    margin: 2% 2% 2% 2%;
+    
+}
+
+.topcontent nav {
+    height: 40px;
+    color: white;   
+    margin-bottom: 0;
+    margin-top:0; 
+}
+
+.topcontent nav ul {
+    list-style: none;
+    margin: 0 auto;
+}
+
+.topcontent nav ul li {
+    display: inline;
+    float: left;
+}
+
+/*.topcontent nav ul li a{
+   
+} */
+
+a {
+    text-decoration: none;    
+} 
+
+.a:link,  a.visited {
+    background-color: darkorange;
+    color: white;
+}
+
+.a:hover, a:active {
+     background-color: darkorange;
+    color: black;
+}
+
+.topcontent nav a:link, .topcontent nav a:visited{
+    color:#fff;
+    display:inline-block;
+    padding: 10px 25px;
+    height: 20px;
+}
+
+.topcontent nav a:hover, .topcontent nav a:active,
+.topcontent nav .active a:link, .topcontent nav.active a.visited{
+    background-color: darkgoldenrod;
+}
+
+.bottomcontent {
+    width: 70%;
+    float:left;
+    background-color: gray;
+    margin: 5px 5px 5px 5px;
+}
+
+.mainFooter {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+    background-color: gray;
+    float:left;
+    margin-top: 2%;
+    margin-bottom: 0; 
+}
